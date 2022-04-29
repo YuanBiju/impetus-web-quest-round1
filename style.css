@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*container-1*/
+div.container-1 {
+    padding: 5px;
+    background-color: #5ca08e;
+    display: flex;
+    flex-direction: row;
+}
+
+div.ieee-logo {
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+
+.ieee-logo img {
+    width: 100px;
+}
+
+div.impetus-heading {
+    width: 50%;
+}
+
+div.impetus-heading h1,h2{
+    text-align: center;
+}
+
+div.impetus-logo {
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+
+div.impetus-logo img{
+    width: 100px;
+}
+
+/*container-2*/
+div.container-2 {
+    padding: 5px;
+    background-color: #9dc183;
+}
+div.container-2 h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.container-2 p {
+    text-align: center;
+}
+
+/*container-3*/
+div.container-3 {
+    padding: 5px;
+    background-color: #c9dfc8;
+}
+
+div.container-3 h3{
+    text-align: center;
+}
+
+div.industry-type {
+    border-bottom: 3px double;
+}
+
+div.industry-type img{
+    margin: auto;
+}
+
+/*container-4*/
+div.container-4 {
+    padding: 5px;
+    background-color: #9dc183;
+}
+
+div.container-4 h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.container-4 p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    /*container-1*/
+
+    .ieee-logo img {
+        width: 75px;
+    }
+
+    div.impetus-heading h1{
+        font-size: 25px;
+    }
+
+    div.impetus-heading h2{
+        font-size: 20px;
+    }
+
+    div.impetus-logo img{
+        width: 75px;
+    }
+  }
